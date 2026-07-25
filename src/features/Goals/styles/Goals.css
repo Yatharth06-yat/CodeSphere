@@ -1,0 +1,6 @@
+.go-card__top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+.go-card__deadline { display: flex; align-items: center; gap: 4px; font-size: 12px; color: #94a3b8; }
+.go-card h4 { font-size: 14.5px; color: #1e293b; margin-bottom: 12px; }
+.go-card__bar { height: 8px; background: #f1f5f9; border-radius: 6px; overflow: hidden; }
+.go-card__bar-fill { height: 100%; background: #2563eb; border-radius: 6px; }
+.go-card__pct { font-size: 12px; color: #64748b; margin-top: 6px; text-align: right; }

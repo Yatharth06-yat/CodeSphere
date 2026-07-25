@@ -1,0 +1,12 @@
+.lb-tabs { display: flex; gap: 6px; background: #f1f5f9; padding: 4px; border-radius: 10px; width: fit-content; margin-bottom: 18px; }
+.lb-tabs__btn { border: none; background: transparent; padding: 8px 16px; border-radius: 8px; font-size: 13.5px; font-weight: 600; color: #64748b; cursor: pointer; }
+.lb-tabs__btn--active { background: #fff; color: #2563eb; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+
+.lb-podium { display: flex; align-items: flex-end; justify-content: center; gap: 16px; margin-bottom: 24px; padding: 20px 0; }
+.lb-podium__item { display: flex; flex-direction: column; align-items: center; background: #fff; border: 1px solid #eef2f7; border-radius: 14px; padding: 16px; width: 140px; box-shadow: 0 1px 2px rgba(15,23,42,0.04); }
+.lb-podium__item img { width: 56px; height: 56px; border-radius: 50%; object-fit: cover; margin-bottom: 8px; }
+.lb-podium__item--1 { transform: translateY(-14px); border-color: #fde68a; }
+.lb-podium__rank { font-weight: 800; color: #94a3b8; font-size: 13px; }
+.lb-podium__item--1 .lb-podium__rank { color: #d97706; }
+.lb-podium__name { font-weight: 700; font-size: 13.5px; color: #1e293b; margin-top: 2px; text-align: center; }
+.lb-podium__points { font-size: 12px; color: #64748b; margin-top: 2px; }

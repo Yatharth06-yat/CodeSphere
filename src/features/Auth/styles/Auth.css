@@ -1,0 +1,6 @@
+.au-wrapper { min-height: calc(100vh - 64px); display: flex; align-items: center; justify-content: center; padding: 24px; }
+.au-card { width: 100%; max-width: 380px; }
+.au-card h2 { font-size: 20px; color: #1e293b; margin-bottom: 4px; }
+.au-card__subtitle { font-size: 13.5px; color: #64748b; margin-bottom: 22px; }
+.au-card__footer { text-align: center; font-size: 13px; color: #64748b; margin-top: 12px; }
+.au-card__footer a { color: #2563eb; font-weight: 600; text-decoration: none; }

@@ -1,0 +1,11 @@
+.mt-card__top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+.mt-card__actions { display: flex; gap: 8px; }
+.mt-card__actions button { background: none; border: none; cursor: pointer; color: #94a3b8; font-size: 15px; padding: 4px; border-radius: 6px; }
+.mt-card__actions button:hover { background: #f1f5f9; color: #334155; }
+.mt-card h4 { font-size: 15px; color: #1e293b; margin-bottom: 6px; }
+.mt-card__goal { font-size: 13px; color: #64748b; margin-bottom: 14px; min-height: 32px; }
+.mt-card__bar { height: 8px; background: #f1f5f9; border-radius: 6px; overflow: hidden; margin-bottom: 6px; }
+.mt-card__bar-fill { height: 100%; background: #16a34a; border-radius: 6px; }
+.mt-card__progress-label { font-size: 12px; color: #64748b; margin-bottom: 10px; }
+.mt-card__notes { font-size: 12.5px; color: #475569; font-style: italic; margin-bottom: 10px; }
+.mt-card__dates { display: flex; align-items: center; gap: 6px; font-size: 12px; color: #94a3b8; }

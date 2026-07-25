@@ -1,0 +1,4 @@
+.nc-roadmap-item__top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+.nc-roadmap-item__top h4 { font-size: 14px; color: #1e293b; }
+.nc-roadmap-item__bar { height: 8px; background: #f1f5f9; border-radius: 6px; overflow: hidden; }
+.nc-roadmap-item__bar-fill { height: 100%; background: #2563eb; border-radius: 6px; }

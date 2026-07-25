@@ -1,0 +1,8 @@
+.st-toggle-row { display: flex; align-items: center; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid #f1f5f9; font-size: 14px; color: #334155; }
+.st-toggle-row:last-child { border-bottom: none; }
+.st-switch { position: relative; display: inline-block; width: 40px; height: 22px; }
+.st-switch input { opacity: 0; width: 0; height: 0; }
+.st-switch__slider { position: absolute; inset: 0; background: #e2e8f0; border-radius: 999px; cursor: pointer; transition: 0.2s; }
+.st-switch__slider::before { content: ''; position: absolute; height: 16px; width: 16px; left: 3px; top: 3px; background: #fff; border-radius: 50%; transition: 0.2s; }
+.st-switch input:checked + .st-switch__slider { background: #2563eb; }
+.st-switch input:checked + .st-switch__slider::before { transform: translateX(18px); }

@@ -1,0 +1,12 @@
+.cs-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 48px 24px;
+  color: #64748b;
+}
+.cs-empty__icon { font-size: 40px; color: #cbd5e1; margin-bottom: 12px; }
+.cs-empty__title { font-size: 16px; font-weight: 600; color: #334155; margin-bottom: 6px; }
+.cs-empty__message { font-size: 13px; margin-bottom: 16px; max-width: 320px; }

@@ -1,0 +1,2 @@
+.an-heatmap { display: grid; grid-template-columns: repeat(14, 1fr); gap: 4px; }
+.an-heatmap__cell { aspect-ratio: 1; border-radius: 3px; background: #f1f5f9; }

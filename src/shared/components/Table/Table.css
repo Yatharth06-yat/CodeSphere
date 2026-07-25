@@ -1,0 +1,15 @@
+.cs-table__wrapper { overflow-x: auto; border: 1px solid #eef2f7; border-radius: 12px; }
+.cs-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.cs-table thead { background: #f8fafc; }
+.cs-table th {
+  text-align: left;
+  padding: 12px 16px;
+  font-weight: 600;
+  color: #64748b;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+.cs-table td { padding: 12px 16px; border-top: 1px solid #f1f5f9; color: #334155; }
+.cs-table tbody tr:hover { background: #f8fafc; }
+.cs-table__empty { padding: 32px; text-align: center; color: #94a3b8; font-size: 14px; }

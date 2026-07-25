@@ -1,0 +1,19 @@
+.cs-loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 32px;
+  color: #64748b;
+  font-size: 14px;
+}
+.cs-loader--full { min-height: 60vh; }
+.cs-loader__spinner {
+  width: 20px;
+  height: 20px;
+  border: 3px solid #dbeafe;
+  border-top-color: #2563eb;
+  border-radius: 50%;
+  animation: cs-spin 0.7s linear infinite;
+}
+@keyframes cs-spin { to { transform: rotate(360deg); } }

@@ -1,0 +1,14 @@
+.cs-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 24px;
+  border-top: 1px solid #eef2f7;
+  font-size: 13px;
+  color: #94a3b8;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.cs-footer__links { display: flex; gap: 16px; }
+.cs-footer__links a { color: #64748b; text-decoration: none; }
+.cs-footer__links a:hover { color: #2563eb; }

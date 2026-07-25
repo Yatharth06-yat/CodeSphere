@@ -1,0 +1,17 @@
+.cs-pagination { display: flex; align-items: center; gap: 6px; margin-top: 16px; }
+.cs-pagination__btn {
+  min-width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  background: #fff;
+  color: #475569;
+  cursor: pointer;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cs-pagination__btn:hover:not(:disabled) { background: #f1f5f9; }
+.cs-pagination__btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.cs-pagination__btn--active { background: #2563eb; color: #fff; border-color: #2563eb; }

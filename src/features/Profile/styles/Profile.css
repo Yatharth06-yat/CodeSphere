@@ -1,0 +1,21 @@
+.pf-header { display: flex; gap: 20px; align-items: center; flex-wrap: wrap; }
+.pf-header img { width: 90px; height: 90px; border-radius: 50%; object-fit: cover; }
+.pf-header h2 { font-size: 20px; color: #1e293b; }
+.pf-header__username { color: #64748b; font-size: 13.5px; margin: 2px 0 8px; }
+.pf-header__bio { font-size: 14px; color: #475569; margin-bottom: 10px; }
+.pf-header__meta { display: flex; gap: 18px; font-size: 12.5px; color: #94a3b8; }
+.pf-header__meta span { display: flex; align-items: center; gap: 5px; }
+
+.pf-achievement { text-align: center; }
+.pf-achievement__icon { font-size: 28px; display: block; margin-bottom: 8px; }
+.pf-achievement p { font-size: 13px; font-weight: 600; color: #334155; }
+
+.pf-timeline { list-style: none; margin: 0; padding: 0; }
+.pf-timeline li { display: flex; gap: 10px; padding: 10px 0; border-bottom: 1px solid #f1f5f9; }
+.pf-timeline li:last-child { border-bottom: none; }
+.pf-timeline__dot { width: 8px; height: 8px; border-radius: 50%; background: #2563eb; margin-top: 6px; flex-shrink: 0; }
+.pf-timeline p { font-size: 13.5px; color: #334155; }
+.pf-timeline small { font-size: 11.5px; color: #94a3b8; }
+
+.pf-platform-row { display: flex; align-items: center; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #f1f5f9; }
+.pf-platform-row:last-child { border-bottom: none; }
