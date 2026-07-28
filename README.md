@@ -64,4 +64,4 @@ This means new features can be added by copying the pattern above without touchi
 
 - All charts render from mock data via Chart.js.
 - The Manual Tracker is a generic module — users can create any kind of tracker (JEE prep, gym, reading, etc.) without needing separate pages per activity.
-- Swap `shared/services/axiosInstance.js` baseURL and connect each feature's `*API.js` file to real endpoints when the backend is ready.
+- Swap `shared/services/axiosInstance.js` baseURL and connect each feature's `*API.js` file to real endpoints when the backend is ready..
